@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "8.5.0"
+  },
   "scripts": {
     "dev": "nodemon ./src/index.js",
     "start": "node index.js",
