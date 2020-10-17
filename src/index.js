@@ -3,8 +3,7 @@ const cors = require('cors');
 const helmet = require('helmet');
 const express = require('express');
 
-const port = process.env.PORT || 3001;
-const host = '0.0.0.0';
+const PORT = process.env.PORT || 4000;
 
 const app = express();
 
@@ -15,6 +14,6 @@ app.use(express.urlencoded({ extended: false }));
 
 require('./app/controllers/index')(app);
 
-app.listen(port, host, () => {
-  console.log(`Server started on port: ${port}`);
+app.listen(PORT, () => {
+  console.log(`Server listening on port: ${PORT}`);
 });
