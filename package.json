@@ -1,15 +1,14 @@
 {
   "name": "api-devflix",
   "version": "0.0.1",
-  "private": true,
   "description": "",
   "main": "index.js",
   "engines": {
-    "node": "10.16.0"
+    "node": "12.11.1"
   },
   "scripts": {
-    "dev": "nodemon ./src/index.js",
     "start": "node index.js",
+    "dev": "nodemon ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
