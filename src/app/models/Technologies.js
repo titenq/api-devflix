@@ -9,7 +9,17 @@ const TechnologiesSchema = new mongoose.Schema({
   color: {
     type: String,
     required: true
-  }
+  },
+  videos: [{
+    title: {
+      type: String,
+      required: true
+    },
+    url: {
+      type: String,
+      required: true
+    }
+  }]
 },
 { collection: 'technologies' });
 
