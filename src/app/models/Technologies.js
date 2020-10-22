@@ -10,7 +10,6 @@ const TechnologiesSchema = new mongoose.Schema({
     type: String,
     required: true
   }
-  }]
 },
 { collection: 'technologies' });
 
